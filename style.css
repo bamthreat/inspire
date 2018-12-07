@@ -189,7 +189,8 @@ p#must-read {
     color: blue;
     text-transform: uppercase;
     text-align: center;
-    position: relative;
+    position: absolute;
+    left: 1087px;
 }
 section#optin-inputs {
     padding-bottom: 500px;
