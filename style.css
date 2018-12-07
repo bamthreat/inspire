@@ -179,7 +179,8 @@ p#download {
     font-weight: bold;
 }
 p#secretss {
-    width: 116%;
+    position: relative;
+    left: 200px;
     margin: 0 auto;
     font-size: 50px;
     text-transform: uppercase;
@@ -188,7 +189,8 @@ p#must-read {
     color: blue;
     text-transform: uppercase;
     text-align: center;
-    width: 166%;
+    position: relative;
+    left: 520px;
 }
 section#optin-inputs {
     padding-bottom: 500px;
