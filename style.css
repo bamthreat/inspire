@@ -1,0 +1,288 @@
+/* Inspire Works CSS Document */
+body{
+
+	font-family: Georgia;
+	margin: 0;
+	padding: 0;
+}
+.wrapper{
+	width: 100%;
+	max-width: 1180px;
+	padding: 0 10px;
+	margin: 0 auto;
+}
+h1.logo {
+    background-image: url(images/logo-inspire.png);
+    background-repeat: no-repeat;
+    width: 250px;
+    height: 70px;
+    text-indent: -10000px;
+    float: left;
+}
+h1.logo:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+header nav {
+    float: right;
+    margin-top: 20px;
+}
+header nav h2{
+
+	text-indent: -10000px;
+	height: 0;
+	margin:0;
+}
+header nav li{
+	float: left;
+	list-style-type: none;
+	margin: 10px 20px;
+}
+header nav li:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+header nav li a{
+
+	text-decoration: none;
+	color: #333;
+	font-size: 18px;
+}
+#main-banner, #main-banner img{
+	width: 100%;
+}
+.about-us-section {
+    display: inline-flex;
+    margin-top: 120px;
+    margin-bottom: 120px;
+    width: 100%;
+}
+section#left {
+    margin-left: 150px;
+    margin-right: 150px;
+}
+section#right {
+    margin-right: 150px;
+    line-height: 2;
+    font-size: 20px;
+    margin-top: -41px;
+    text-align: justify;
+}
+input[type="button"] {
+    border: 2px #000 solid;
+    font-size: 20px;
+    background: none;
+    padding: 10px 15px;
+}
+.services-section {
+   
+    display: inline-flex;
+}
+section#safety {
+    width: 33.33%;
+    text-align: center;
+    background-image: url(images/safety.jpeg);
+    background-repeat: no-repeat;
+    color: white;
+    background-color: #33333340;
+ 
+}
+section#safety h2 {
+   background-color: #33333390;
+    width: 300px;
+    margin: 0 auto;
+    padding: 164px;
+    padding-bottom: 240px;
+    font-size: 40px;
+}
+section#corporate {
+    width: 33.33%;
+    text-align: center;
+    background-image: url(images/corporate.jpeg);
+    background-repeat: no-repeat;
+    color: white;
+  
+}
+section#corporate h2 {
+    background-color: #33333390;
+    width: 300px;
+    margin: 0 auto;
+    padding: 164px;
+    padding-bottom: 240px;
+    font-size: 40px;
+}
+section#timelapse{
+    width: 33.33%;
+    text-align: center;
+    background-image: url(images/timelapse.jpeg);
+    background-repeat: no-repeat;
+    color: white;
+   
+}
+section#timelapse h2 {
+    background-color: #33333390;
+    width: 300px;
+    margin: 0 auto;
+    padding: 164px;
+    padding-bottom: 240px;
+    font-size: 40px;
+}
+.reviews {
+    margin-top: 75px;
+    margin-bottom: 75px;
+    width: 100%;
+    text-align: center;
+}
+.reviews h2 {
+    font-size: 40px;
+    text-align: center;
+}
+.reviews section {
+    width: 30%;
+    font-size: 20px;
+    display: inline-block;
+   
+    margin-left: 5px;
+    margin-right: 5px;
+}
+section p.comment-customer {
+    line-height: 2;
+    height: 0;
+}
+section p.name-customer {
+    font-size: 22px;
+    text-align: center;
+    padding-top: 20px;
+    margin-top: 220px;
+}
+section p.job-description {
+    text-align: center;
+    font-size: 16px;
+    margin-top: -10px;
+}
+.opt-in.main-banner {
+    background-image: url(images/ebook.png);
+    background-repeat: no-repeat;
+    width: 100%;
+}
+section#ebook {
+    text-align: right;
+    width: 82%;
+    padding-top: 100px;
+   
+}
+p#download {
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+p#secretss {
+    width: 116%;
+    margin: 0 auto;
+    font-size: 50px;
+    text-transform: uppercase;
+}
+p#must-read {
+    color: blue;
+    text-transform: uppercase;
+    text-align: center;
+    width: 166%;
+}
+section#optin-inputs {
+    padding-bottom: 500px;
+}
+section#optin-inputs {
+    width: 100%;
+    text-align: center;
+    margin-top: 60px;
+}
+section#optin-inputs input {
+    width: 400px;
+    border: 1px solid #555;
+    position: relative;
+    left: 347px;
+    padding: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 18px;
+}
+#optin-inputs input[type="submit"] {
+    width: 442px!important;
+    background: #d61dd6;
+    color: #fff;
+    border: 1px solid #d61dd6;
+}
+.our-clients.gallery {
+	padding-top: 75px;
+	padding-bottom: 50px;
+    text-align: center;
+    background: #53bcd7; /* Old browsers */
+background: -moz-linear-gradient(left, #53bcd7 0%, #8a9bcc 50%, #bc629e 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left, #53bcd7 0%,#8a9bcc 50%,#bc629e 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right, #53bcd7 0%,#8a9bcc 50%,#bc629e 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#53bcd7', endColorstr='#bc629e',GradientType=1 ); /* IE6-9 */
+}
+.our-clients.gallery h2 {
+    font-size: 40px;
+    color: #fff;
+}
+.contact-us {
+    width: 100%;
+    margin: 0 auto;
+    display: inline-flex;
+}
+section#contact-group {
+    margin-top: 60px;
+    text-align: center;
+    width: 50%;
+
+}
+section#contact-group h2 {
+    font-size: 40px;
+}
+section#contact-group input[type="text"], textarea, input[type="submit"] {
+    width: 60%;
+    padding: 20px 20px;
+    margin-bottom: 10px;
+    border: solid 1px #333;
+    font-size: 18px;
+    font-family: arial;
+    color: gray;
+}
+section#contact-group input[type="submit"] {
+    width: 65%;
+    padding: 20px 20px;
+    margin-bottom: 10px;
+    border: solid 1px #333;
+    font-size: 18px;
+    font-family: arial;
+    color: #fff;
+    background: black;
+}
+footer{
+	background: #3b3b3b;
+	padding:30px 0;
+}
+footer:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+footer ul{
+	float: left;
+	padding: 0;
+	list-style-type: none;
+	color: #eee;
+	width: 23%;
+	margin-right: 2%;
+
+}
+footer li{
+	margin: 10px 0;
+}
+footer a{
+	color: #eee;
+	text-decoration: none;
+}
